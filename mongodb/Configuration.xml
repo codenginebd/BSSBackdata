@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<configuration>
+	<property name="host_name">
+		localhost
+	</property>
+	<property name="port">
+		27017
+	</property>
+</configuration>

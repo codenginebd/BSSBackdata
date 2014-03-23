@@ -1,0 +1,990 @@
+------------------------------------------------------------
+C:\Python27\Scripts\pip-script.py run on 08/14/13 15:11:14
+Downloading/unpacking pymongo
+
+  Getting page https://pypi.python.org/simple/pymongo/
+  URLs to search for versions for pymongo:
+  * https://pypi.python.org/simple/pymongo/
+  Analyzing links from page https://pypi.python.org/simple/pymongo/
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.9-py2.5-win32.egg#md5=b5648af2d833408ff65b038502bdb184 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.2-py3.3-macosx-10.6-intel.egg#md5=4e30c9fd9105b1c7f95e2bfcbcb85273 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2-py3.2-win-amd64.egg#md5=7a036c40db468db88238fb8d8f868857 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1-py2.7-macosx-10.6-intel.egg#md5=75184b21ccfd9ab63f721f01ac705b22 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.10.win32-py2.4.exe#md5=e1b7199966bda2449c0076ad3e56f2a9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.4pre-py2.5-macosx-10.3-i386.egg#md5=15bc1a3bbf88caee17be15c81d14b04e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.1.1pre.tar.gz#md5=28823b0f691b2e2e3ae448c246cac5ed (from https://pypi.python.org/simple/pymongo/), version: 0.1.1pre
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2-py2.6-macosx-10.8-intel.egg#md5=41d3fe8bf36159990b152d0e117c8c38 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9-py2.6-macosx-10.5-i386.egg#md5=3e10a4446d7a6138b1ce181f03a50402 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.11.win32-py2.6.exe#md5=c6392ba6efbbea028bd1f87d3d71df36 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.3-py2.5-win32.egg#md5=96ebe95d3df6ee6c8e59b2a50fc058e2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.1.2-py2.6-win32.egg#md5=8f9591f62da5e8979e23ff0630161cd5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0.1-py2.5-win32.egg#md5=a4ff6bf8b10d283e7bcee993a40e38a2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.10-py2.6-macosx-10.5-i386.egg#md5=abbfde4336b673435f8053f0321e2841 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5-py3.3-macosx-10.5-fat.egg#md5=f287e306149d0e2296975ea97ac675e5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.5.1-py2.5-win32.egg#md5=0d92798d596a0d364d864dc016babc88 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.1-py3.2-macosx-10.3-fat.egg#md5=7635ad7f8c9447809a4b061d446f77e3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.0-py2.5-macosx-10.6-i386.egg#md5=3ab2025e898c7b0a7d17d16b7dd1cf96 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.1-py2.6-win-amd64.egg#md5=3a95378c27108909ed21963ed1205db8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.1-py2.6-macosx-10.6-universal.egg#md5=ff787aeae25b405b4e05636b47adcce3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4-py2.7-win-amd64.egg#md5=0657fd9425a5b9bab3ba3c39461dbc71 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.1.1pre-py2.5.egg#md5=55cbb26cd754f4263448007bcd15de8f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4-py2.6-win32.egg#md5=79af95945a5be01c19b67bc9d9c19389 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.win-amd64-py3.3.exe#md5=82088aeda868c39e057dda4f365bc715 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.1.2pre.tar.gz#md5=1c969367addb5b2e096514eff321fa06 (from https://pypi.python.org/simple/pymongo/), version: 0.1.2pre
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2-py2.6-macosx-10.7-intel.egg#md5=f5f68e1cb16330c8b761d858caca9dd9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.5.1.tar.gz#md5=17c415968cc375f064fd0914df78d9f9 (from https://pypi.python.org/simple/pymongo/), version: 1.5.1
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.14.2-py2.6-win32.egg#md5=7495c96aaa26971e18b334d4cef2027d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.1-py2.6-win32.egg#md5=9c6dc84097c20421017f2d5cf7f59e05 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.15-py2.5-win32.egg#md5=9da1dfb624a77e8b562d8f46e1500ad7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.10.1-py2.7-win32.egg#md5=a1c626778417698a82c332c034eb28f4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0-py2.6-win-amd64.egg#md5=630f0b8362881c103e4ef500134dc3fb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1.win32-py2.5.exe#md5=d7d2d1435ce1cf134da3d27e0355ae7f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.0-py2.4-macosx-10.6-i386.egg#md5=4cfc36617cfe3080a73fa6121caca912 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5.2pre.tar.gz#md5=8b4b86001138dacb138e98f30d325950 (from https://pypi.python.org/simple/pymongo/), version: 0.5.2pre
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5-py3.2-win-amd64.egg#md5=0fee36914063983bccc3f1aadc68fad8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1-py2.7-win-amd64.egg#md5=8c8970f25fe16e7ac978a03432d78959 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.0.1-py2.4-win32.egg#md5=d675ca253c207742e23d52bfcc5a84e2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.15.1-py2.6-win32.egg#md5=457776afa99aee6e3862a82b741f9323 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.3.win32-py2.4.exe#md5=bcab806cceb1902ab09de4b400760fb4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1-py2.6-win32.egg#md5=96201227d249847ae687d5efaff17339 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3-py2.6-win32.egg#md5=8f4c1f971157510ecba4f02dc3058113 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5-py3.3-win-amd64.egg#md5=516023b5624b47bc20eacd9754c4eee5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.1-py3.3-win32.egg#md5=58c4453e593b16e5df8a418c3a38f712 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.3pre.tar.gz#md5=07e1b9ed02ceb1c4627bbb4429e02ff7 (from https://pypi.python.org/simple/pymongo/), version: 0.3pre
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2-py2.6-win32.egg#md5=423988749543662f3335b5412b1e8d2f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.7.tar.gz#md5=331a4496c7890931fe86c71afc633a20 (from https://pypi.python.org/simple/pymongo/), version: 0.9.7
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0-py2.7-win32.egg#md5=cec6b53a3839015cbff3fc9e48b6e1f9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0.1-py2.5-macosx-10.6-i386.egg#md5=d6044a9c22831ff5b9227aba2b78a841 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4-py2.6-macosx-10.8-intel.egg#md5=08689f64dd65408fe661f637c320558c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.4.tar.gz#md5=faedc2cd2276ed03de6ba4022485a3fd (from https://pypi.python.org/simple/pymongo/), version: 1.4
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.0-py2.6-macosx-10.6-i386.egg#md5=4dcbc16076acbf4a29d1d524fc06442b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5-py2.5-macosx-10.7-x86_64.egg#md5=a9d6a37a0effb20c1f0a40e3774505ab (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.4.1.win32-py2.4.exe#md5=b44f5a72d6556563edf87871bc7ba223 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.6.tar.gz#md5=fb68ef7a45495d2b59c13e426a6ca2f5 (from https://pypi.python.org/simple/pymongo/), version: 0.6
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.5-py2.6-macosx-10.6-i386.egg#md5=0e8364d6303a0b79eeb28d712f6c46b9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.14.2-py2.5-macosx-10.5-i386.egg#md5=1f483c5676c3dd34aff36996d1f87cfd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.2.1-py2.4-macosx-10.6-i386.egg#md5=c652de0ae35da7bbb0a74f9b09792d87 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.2.1-py2.6-win32.egg#md5=db346576f011787001e9f586c047fc5c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4-py2.5-macosx-10.8-x86_64.egg#md5=454f94eb7ef8009896713a66c726e378 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.3.win32-py3.2.exe#md5=42290756db68576632876403a8b43c58 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.10.1.win32-py2.4.exe#md5=15ce78d5b705eaf8c6467b7aaec84ef1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1-py2.6-win-amd64.egg#md5=9e95e765008bf61024b7942d96fdc6a2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1.win-amd64-py2.6.exe#md5=bceba887edf7d2c8fc6da5ee06a7c17f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.14.tar.gz#md5=96c7b066815445e75ad095c0fa760eab (from https://pypi.python.org/simple/pymongo/), version: 0.14
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.10.tar.gz#md5=ee547c2c28ba29cbc95e406a1b1998df (from https://pypi.python.org/simple/pymongo/), version: 0.10
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.11.win32-py2.7.exe#md5=0d0f0c4f315e03c85a87eaf15a054d0c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4-py3.3-macosx-10.5-fat.egg#md5=d389fa7afbd2f0ec935b0898cc8054fc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4-py2.7-macosx-10.8-intel.egg#md5=d4c08285c3bcc3ba2dd80db1ec67a6f7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.2-py3.2-macosx-10.6-intel.egg#md5=59c51e72868c27e87eacf308f2f01c19 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.8-py2.5-win32.egg#md5=de17c685623e301d45a979c7c0758945 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.3-py2.6-macosx-10.5-i386.egg#md5=f010ca390b728c97d31f4dfa6e7fa6e8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.win32-py2.5.exe#md5=2013fc9dd00dbe2a541145c216957e31 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5pre.tar.gz#md5=9799af3d47b747e5046fc4a0fdb28117 (from https://pypi.python.org/simple/pymongo/), version: 0.5pre
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.12-py2.6-macosx-10.5-i386.egg#md5=6b0ef6fda105b249b8d7893ffc2f58b9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.14.2-py2.4-macosx-10.5-i386.egg#md5=545c72703c4f42421dce67ad3df03000 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.10.1-py2.7-macosx-10.6-x86_64.egg#md5=6b62bd76f6af50dfe171ce13ce7dc181 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.15.2.tar.gz#md5=d8329be30652a2a15f0a22fc515bf3fb (from https://pypi.python.org/simple/pymongo/), version: 0.15.2
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1-py2.5-win32.egg#md5=a29044ededd81f294378fedb11b26fb4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.win-amd64-py2.7.exe#md5=ce79cbf4e84ea17e349c4300dd7b336e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.win32-py3.3.exe#md5=243f64685adafc4c286866768588eddf (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.6-py2.4-macosx-10.6-i386.egg#md5=0135007a004ef6f90d1060c2d5f48aec (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1.1.win32-py2.5.exe#md5=1b7529ef866f244663ae3a49d7fd5843 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.15-py2.6-macosx-10.5-i386.egg#md5=99d613dbe9ebda2ed53d003c7db4e325 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0-py2.7-macosx-10.6-intel.egg#md5=b8d63a0d9ac947821edb91d250143b29 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2-py2.7-macosx-10.7-intel.egg#md5=644c4e381f3293bf626364d1dbd6c23e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.8.1.tar.gz#md5=e09cfc3d71be5d06e171d02088c600af (from https://pypi.python.org/simple/pymongo/), version: 0.8.1
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2.1.win32-py2.5.exe#md5=5c01bff204b15b8fc610ce5bb640d276 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.11.2-py2.6-macosx-10.5-i386.egg#md5=b8e458b9a36d8516fa207cc94771bf4e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.0-py2.5-win32.egg#md5=40245845461f341fb633f07e06dc062f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1-py2.5-macosx-10.7-x86_64.egg#md5=9fd6aad6e4e7bff1972726da53483843 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.15.2-py2.5-macosx-10.6-i386.egg#md5=9c07d0db898599a203682615495d13d8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4-py3.3-macosx-10.6-intel.egg#md5=8d168f65cc2fef92384064eeb37546a0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.12-py2.5-macosx-10.5-i386.egg#md5=df08a1e567b662e1fdeb1ffb605d54ce (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.8-py2.6-win32.egg#md5=6aa66a6dac9b259e2087c58ba3198626 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.10-py2.6-macosx-10.6-x86_64.egg#md5=e8fb04bd6cafd321ae21d2846baedb00 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.4-py2.6-win32.egg#md5=4e63b9a126020d7d3aff408fd5a75ba6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2-py2.7-win-amd64.egg#md5=04c393aa1dcf1dc2366710a3bc8e3d31 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.10.1-py2.4-macosx-10.6-i386.egg#md5=ff6f6b04bebcea4279ba30b5959f9eee (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.10.1.win32-py2.5.exe#md5=b7563702936b65b7950d9cca745cab6a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.11.1-py2.6-macosx-10.5-i386.egg#md5=38cb392b6510f706bfa5e0e8e33fbc91 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.win32-py2.7.exe#md5=1e6af6ed90806ce37c5dbeee14a90fb5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.2pre-py2.5.egg#md5=8b221316d8fe32d341c937d94e837c2a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1-py2.7-macosx-10.7-intel.egg#md5=2f70de0f042a949ce68cb3aeffc8f9ac (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0-py2.5-win32.egg#md5=fdf792aad95122476afaedce5b81d0fa (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.10.1.win32-py2.7.exe#md5=81ae0d3939c360ad1cae33929b8367a4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.15.1.tar.gz#md5=4da9e562248b44cd9193571dae259a1c (from https://pypi.python.org/simple/pymongo/), version: 0.15.1
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.9-py2.5-macosx-10.6-i386.egg#md5=c90800924064a7c9d947a7cdc581e396 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.3-py2.6-macosx-10.6-i386.egg#md5=89b1e7bb0785c0d00f1af0b006f8fb80 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.14.1-py2.6-win32.egg#md5=221ff1a0cf9dd8ae54e8aeda7b432fa3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4-py2.7-win32.egg#md5=dc122efed9af36c5f44fd9df2b57a4f5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.win32-py3.3.exe#md5=b37619b864f749d8d1b064c9837d3cda (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.9.win32-py2.6.exe#md5=76965a426601e9d805871ed7bd433660 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.2-py2.5-macosx-10.7-x86_64.egg#md5=4709fb57770ac26e6b3be8731ba274a4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5-py2.6-win-amd64.egg#md5=e7a9e6a7a91dd9977e4196e26d492c02 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.16-py2.4-macosx-10.6-i386.egg#md5=1f409da846dfccb3f88e5678b30932be (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.8.1-py2.5-macosx-10.6-i386.egg#md5=ee306525c703add433ea24563394c02b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.4-py2.4-win32.egg#md5=b4528fd01b1ecc0536fbe18f8c50c19d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.7-py2.6-macosx-10.5-i386.egg#md5=be325567c84eacae6ae861350c8ee93d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1.1-py2.5-macosx-10.6-i386.egg#md5=2be719e582780beb43c92df5d00adbf1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.1.win-amd64-py3.2.exe#md5=13a98fb878111b2f1b5906052715c915 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.1.win-amd64-py2.6.exe#md5=3659b4c924588071a8c48f2487783087 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.1-py2.7-win-amd64.egg#md5=f82d321bcb87e29afe782379722d21da (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.2.1-py2.4-win32.egg#md5=8a693b4f4dd1eebceb6b4971fb9a0798 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.win-amd64-py2.6.exe#md5=fb8ad9d31f2ba85be67dec2fea70a111 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.win-amd64-py3.2.exe#md5=bfcf1bb69f3f1bdb52e1b9126daa237b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.1.win32-py3.2.exe#md5=471c2ce58c627ff41802ca7171d5a173 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4-py2.7-macosx-10.6-intel.egg#md5=abac36798f24d461dde8e4958858d749 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.3-py3.2-win-amd64.egg#md5=997cf56cbd35361e25566478bf84da01 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.11.tar.gz#md5=84b60cb281d3c385615abe6276d04567 (from https://pypi.python.org/simple/pymongo/), version: 0.11
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4-py3.3-win-amd64.egg#md5=e24bc1b7aff746e3ef768d44111d5dbc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.13-py2.5-macosx-10.5-i386.egg#md5=ab235722aac1acc65d72a8f504a41b0d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5-py3.3-macosx-10.6-intel.egg#md5=c31d0f241083c814fae0d1e2e1ce69be (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3.win-amd64-py2.6.exe#md5=be9f3ed73cf2eda150d88676719737eb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.15.2-py2.6-win32.egg#md5=81b3b7d11fda80cbf51e65900c8a651d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.7-py2.5-win32.egg#md5=d4544facaf0a458378129df80623b302 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.win-amd64-py2.6.exe#md5=d81a13fb944e20d5b62571cf4cde03d1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.1.2-py2.5-win32.egg#md5=0c9002f9fa835501126351028561434f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.1-py2.6-macosx-10.6-universal.egg#md5=a34241c1fa1290fad2fe206266a9fdb4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4-py2.7-macosx-10.7-intel.egg#md5=c78c7ccdc2c75aa7429d72c448609c7e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.1-py2.6-win-amd64.egg#md5=6b6277e602571bd02682407597ce722a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.1-py2.7-win32.egg#md5=16e04b762451f4d292e1db8db1a739b0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.4.2.win32-py2.4.exe#md5=3c6aa1b347cac18af9ca7d015e76221b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1-py2.6-macosx-10.6-universal.egg#md5=1b584e81b20bf6eb06f7f8639ee3b9a3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.1-py3.2-win32.egg#md5=5a4901c3c33cf7afd14133913e9a0052 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2.win32-py2.5.exe#md5=0ee2e8351a5170ba359747dc1d8c83a5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3-py2.6-macosx-10.6-universal.egg#md5=d390898854b6e6602409ad2078495aca (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.2-py3.2-win-amd64.egg#md5=2539cfedf649ac637faf292671743102 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.8.win32-py2.5.exe#md5=49e7e461c2991cb1d8c6ce1042491761 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.1-py2.7-win-amd64.egg#md5=a3c9d5d1fc05944a8c409879362eeac2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.1.tar.gz#md5=ae0139d5346cd4ef3920a9684c921044 (from https://pypi.python.org/simple/pymongo/), version: 0.9.1
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.12.tar.gz#md5=a9cb7ef88388cae93ade32239dc11206 (from https://pypi.python.org/simple/pymongo/), version: 0.12
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1-py2.6-win32.egg#md5=9a2ecd8332096f4399574a130efc00b7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.2.win-amd64-py3.3.exe#md5=f1a9c70abded5df133c73274181ec858 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.10-py2.7-win32.egg#md5=fdeaa478e9edaec4d36b22e4701cc308 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.11.3-py2.4-macosx-10.5-i386.egg#md5=f43d747c0b475608f3cd752e3eccf025 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.1-py2.5-macosx-10.6-i386.egg#md5=98b222858e915141d4de85b4b394f501 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5-py2.7-macosx-10.6-intel.egg#md5=d5b8374b31d6752b91f7ed4c75d5f364 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0-py2.7-win-amd64.egg#md5=aeb0b89cce9d30d3b54cf1f3e68dc081 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.1.win-amd64-py2.6.exe#md5=c2a0a7fe0c4f4de3272d0d2a9f4b19cd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5-py3.3-win32.egg#md5=a209b166296ebbe8b15910f6565545b6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.1-py2.5-win32.egg#md5=7da8efc46b7cab25e47b03c48f46aa54 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.15.1-py2.5-win32.egg#md5=963b38b998967492a2ae60db486005e7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.11.3-py2.6-win32.egg#md5=5a6c56539e7a26b6768caa240128775f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.1-py2.5-win32.egg#md5=7ab167ed9f5fb6657d1aa1f23bba42d5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4-py3.2-win32.egg#md5=c433c3c2afb4535fe2ac0b4974e69628 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.16-py2.6-win32.egg#md5=d1b2641b064e786350eea0d4c9de6f38 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2-py2.6-macosx-10.6-universal.egg#md5=35975c17c2e30fdc4054d8680cd34bf6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.14.1.tar.gz#md5=575b95d5430e09c05f23874142fd020e (from https://pypi.python.org/simple/pymongo/), version: 0.14.1
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.1.win32-py2.5.exe#md5=604c7dae53c87fec166219c1a5e73729 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.11-py2.6-macosx-10.6-x86_64.egg#md5=307e7096fb390aaf143008d4fae817f5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1-py2.7-macosx-10.6-intel.egg#md5=a460007a893e4395f1e8cd001737c123 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2-py3.2-macosx-10.6-intel.egg#md5=1e709eaf13edae19dd5fb132e3ed948b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0.1.win32-py2.5.exe#md5=d6081c5da45140a7db6cfb753c50f53a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.15.1-py2.6-macosx-10.6-universal.egg#md5=0585aab30d631720a3c63afb39bcdd67 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.4.2.tar.gz#md5=102a00761067d0c0a6b91f33840d811e (from https://pypi.python.org/simple/pymongo/), version: 2.4.2
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1-py2.6-macosx-10.8-intel.egg#md5=e22c66875bb5b958052420cae8a648d4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1.win32-py2.6.exe#md5=f5921530ac62a6a6207646dd19f042e8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2-py2.7-win-amd64.egg#md5=334f232fbbdda0b0a674ba1f3f13b935 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.2-py3.3-win-amd64.egg#md5=79608866c6682c9e256e926beaae3ae2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.2.1-py2.5-macosx-10.6-i386.egg#md5=140e33b42a9ca835fe019f0f1f9089a5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.11.1.tar.gz#md5=bc21c364e185fdf34cd1eb7ee9542ba9 (from https://pypi.python.org/simple/pymongo/), version: 0.11.1
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.14.2.tar.gz#md5=e4b20bb2935f0d000dfda0f9c99c75cc (from https://pypi.python.org/simple/pymongo/), version: 0.14.2
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.12-py2.4-macosx-10.5-i386.egg#md5=2b0cfc7e705bc727f7729648bba20451 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.3.1pre-py2.5-macosx-10.3-i386.egg#md5=2fa2e5215b5c1268759d9cd42aef649e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.win32-py2.5.exe#md5=75a998dc9dd2874663ed85a89b0ed1e9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.5-py2.4-win32.egg#md5=31e01049ed74c05fd3215e9bea418c6c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.5-py2.4-macosx-10.6-i386.egg#md5=482f5d3319bda455de50805bedbd90bf (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.4-py2.4-macosx-10.6-i386.egg#md5=c57a545f7243102f4317479885ab7b7c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.2.win32-py2.5.exe#md5=be113a823511bae748be552b0074fb7f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.0-py2.6-win32.egg#md5=7b7683f1c58f0b9947a9b64c3e523c33 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1.win32-py2.7.exe#md5=8be04861d08b664af402906d3ff40585 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.11.3.tar.gz#md5=f441fea05c6bc5fd431e2681f08e49db (from https://pypi.python.org/simple/pymongo/), version: 0.11.3
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.1-py3.3-win-amd64.egg#md5=33a8c267dc28eeef412387040771fc39 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.win32-py2.6.exe#md5=1b8faddbd60fdcaf8f5171dbe31a4077 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5-py2.7-win32.egg#md5=439a91e898fcb3eb3c7b18da41918123 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5-py2.6-macosx-10.7-intel.egg#md5=56699f853b180746744bb9127156c2b5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.1-py3.3-macosx-10.5-fat.egg#md5=f5ed2d3fd80059e5827e2ee1bf726ea8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.14-py2.6-win32.egg#md5=6db2379c7ad45d80e7c228e30f027323 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.14.1-py2.6-macosx-10.5-i386.egg#md5=ffc34df6300f0e9c0000ed4a7639043a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.10.2.tar.gz#md5=b403957854cc7f25bad9740f0917ef64 (from https://pypi.python.org/simple/pymongo/), version: 0.10.2
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.4.win32-py2.4.exe#md5=30e2a57b56ce1926b5844463f6f13753 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.win-amd64-py2.7.exe#md5=0d625fc602be0104b90d07671df90c2e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.1.1-py2.4-macosx-10.6-i386.egg#md5=f5140d795cb434cd5d5e16fed3401c0b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.2.1.tar.gz#md5=b9e9f844208971f42862d5a205cab1c7 (from https://pypi.python.org/simple/pymongo/), version: 2.2.1
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.10.1.tar.gz#md5=00992a36ddcc6a17829ec9c6110fcce4 (from https://pypi.python.org/simple/pymongo/), version: 0.10.1
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.1.win-amd64-py2.7.exe#md5=7c30b693e6ae38a5f5a5262a04f0fce7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.5.1-py2.4-win32.egg#md5=9ba47dc2bad77b4fb0c7dd5116e29e4b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.8-py2.5-macosx-10.6-i386.egg#md5=5f13ed183b17307baeba4c1171fd6e97 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1-py2.7-macosx-10.8-intel.egg#md5=10853be625ca63be1b9efd342c9a47f6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.10.win32-py2.6.exe#md5=a798f712cf7eddbdbffa42abda92983a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.0-py2.4-macosx-10.6-i386.egg#md5=5095ca8a57ef6294018427eaa29906a8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.10-py2.4-macosx-10.6-i386.egg#md5=9528cffc6de8b40c419ad4a241b9d87d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3-py2.6-macosx-10.7-intel.egg#md5=ddae84d9f4d5681dd0243320a45fe57b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5-py2.7-macosx-10.7-intel.egg#md5=69f055a9c42ed0b0ce6169f6fd008d4d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.10.1-py2.4-win32.egg#md5=fd75d0c1effc2f011b61d9572346a86c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.5.1-py2.4-macosx-10.6-i386.egg#md5=499b6d20f54a0a2225e3adae841bfbfa (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.7-py2.6-win32.egg#md5=b91cdaf0947c7aa6d48b7c58d4a1388b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2-py2.7-macosx-10.6-intel.egg#md5=e4ef551b75f661e0a89a75c34ed3da6d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.5-py2.5-macosx-10.6-i386.egg#md5=5e6c184fc2de2104ef6d2cc3bac9021e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.2.win32-py3.3.exe#md5=7acfc30d59c0c2ece461e6c5fcbc46fa (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1.win-amd64-py2.6.exe#md5=6857b030976141b1f3eeeae64e5e5d92 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1-py2.7-win-amd64.egg#md5=7c07aec15ee416aae867228fd131f9e7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0-py2.5-macosx-10.7-x86_64.egg#md5=70ad45427d0ad2b3c8aa0b2c90f035d8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.3.win32-py2.5.exe#md5=47c8e4e8fc9f2673c9e8af9b1e32a8dc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1-py2.7-win-amd64.egg#md5=1000b9af993d91688fbb2c7c399817de (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2-py2.7-win32.egg#md5=2eb7d52190afaa009cbe62f056a03eae (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.0.1.win32-py2.4.exe#md5=e80420027ee8b3d2ad9dd8adc069fec2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.15.2-py2.5-win32.egg#md5=01fbb8517c5969ebd4f6f9209a50df5d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.1-py3.2-macosx-10.3-fat.egg#md5=c17f6f38f4ff428e3cce06eba7bf3a5c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.2-py3.3-win32.egg#md5=b69cabdd9c5b7d1d63568603562823b6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1.1-py2.5-macosx-10.7-x86_64.egg#md5=b8cb1450c2a99ea25c3ab29dfc32ea5c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.1-py2.7-macosx-10.7-intel.egg#md5=897adf10e1b2c743508a7c8a7b30785a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.win-amd64-py2.7.exe#md5=e440677f7fa2aa3fdf404c1de50fa39c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.1.win32-py3.3.exe#md5=020e05f540798345c84e5779aabba465 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4-py2.5-macosx-10.6-i386.egg#md5=8020e6919f057edaac465179f491d51f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.1-py3.2-macosx-10.6-intel.egg#md5=470d42b13cce08d174581be76fc4ec12 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.3.tar.gz#md5=0d342ad1506f983af671d0b0e0e1efec (from https://pypi.python.org/simple/pymongo/), version: 2.3
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.win-amd64-py2.7.exe#md5=8f5079f888280a34e1395e9a53d495dd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.5.2-py2.5-macosx-10.6-i386.egg#md5=f27fc24bb706498a24d0192e5e7f2453 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4-py3.2-macosx-10.6-intel.egg#md5=a0fee42736955997255383e7e4f2287f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.1pre.tar.gz#md5=8cdfe94096af89570fa6c180ebfd1280 (from https://pypi.python.org/simple/pymongo/), version: 0.1pre
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.5.2.tar.gz#md5=d80768d05585bca73cc02b5d21186efe (from https://pypi.python.org/simple/pymongo/), version: 1.5.2
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.10.1-py2.5-macosx-10.6-i386.egg#md5=c3a8ad2ffe1b1415c4b93416e4e9fa15 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.1.win-amd64-py2.6.exe#md5=2814195034dbad638ef22f3d3ba17702 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.1-py3.2-macosx-10.6-intel.egg#md5=53a2038c98883bfb1836320b173ed766 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.2-py2.6-win32.egg#md5=524b5d02ad15aa06008a3f1a320695c0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.15.2-py2.4-macosx-10.6-i386.egg#md5=039f2c1b0173a867b6cc3045d3f1a064 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.3pre-py2.5.egg#md5=4a0d6a1dd4dc85dcd4c1428d625aea76 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.7.1-py2.6-macosx-10.5-i386.egg#md5=b4fac73fcca4263ced3909b0302e74c8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0-py2.6-macosx-10.7-intel.egg#md5=0ff1bd5d07298548a13217e4165e6e95 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.1.2-py2.6-macosx-10.6-i386.egg#md5=b756c42c93b130a2a2cdaf06121c99ac (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5-py2.5-macosx-10.8-x86_64.egg#md5=8e786cb319a5b1bab57dfd632ddbc085 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4-py2.5-win32.egg#md5=3bb17ddfc5b12ce0b6f2a08a36aee34f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.11-py2.5-macosx-10.6-i386.egg#md5=dadb0b69165619c631df550a4ebff2b1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1-py2.7-macosx-10.6-intel.egg#md5=38957417dda41d6503c4ffb0d3a2ab60 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.2pre.tar.gz#md5=164b80faa1a2694339f5315bdcbde86f (from https://pypi.python.org/simple/pymongo/), version: 0.2pre
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4-py2.6-win-amd64.egg#md5=a040ad70e99b96c2c8134bfc4a1583e6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.4.1-py2.4-win32.egg#md5=48448d5dcde00d42ca911e33f4833658 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.1.win32-py3.2.exe#md5=68c6f54c119d0c787b494ef9c9440bfb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.2-py2.4-win32.egg#md5=82671e06e5dfcb1993be855bc46a1c37 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.1.win-amd64-py2.7.exe#md5=2bdcad8f1cfb0ed9358ebbb869e3cf4c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.7.2.tar.gz#md5=43874201afe9870fb637751c0e6448de (from https://pypi.python.org/simple/pymongo/), version: 0.7.2
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.2-py2.5-win32.egg#md5=e67148450468798d4a01ea5be1b11e79 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.1-py2.5-macosx-10.7-x86_64.egg#md5=043812aaacc517d12bbd137db38617a4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1-py2.6-macosx-10.8-intel.egg#md5=e3bb5684206238f50e39a682ee63ed85 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3-py2.7-macosx-10.8-intel.egg#md5=739f9d900e5545fb9a5d906e72e06c3c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.4.tar.gz#md5=22ec839a63f2bb2dc1bfdaea02edc42c (from https://pypi.python.org/simple/pymongo/), version: 2.4
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.win-amd64-py2.7.exe#md5=218aaebd88fedb54174793efbbeb8ce6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.1.win-amd64-py3.3.exe#md5=8c636fe9b7d36c8ceac26f1b2a36a64c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2-py3.2-macosx-10.3-fat.egg#md5=a753fcfc7ce66adb2838da5827be67c8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.15.2-py2.6-macosx-10.6-universal.egg#md5=80c86036fee93decc8c08653deccbdf7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2-py2.6-macosx-10.7-intel.egg#md5=75124de2efe7c7935a8a5d9ce339bc4b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.11-py2.4-win32.egg#md5=e102db00613297822c5bb450ee33fe17 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.win32-py2.6.exe#md5=586016c9ea0811b9ebe060d4e7032e22 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5-py2.5-macosx-10.6-i386.egg#md5=476ff5fcd2df56763be9efc44c9d469b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.3-py2.5-win32.egg#md5=76cc1c17ebc9759702ad7d32c4a5c28d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.2.1-py2.5-win32.egg#md5=e7274f4494a3875f8eedbfc23b5db5d7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.15-py2.5-macosx-10.5-i386.egg#md5=22110ffbd970c2fbd5aa643b459e231c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.1-py2.7-win-amd64.egg#md5=8aa50db969aa6eb8a92af9a740429dc1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.1-py3.2-win-amd64.egg#md5=f3a7638b8ea241023b924f2abc3e0531 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.10.1-py2.6-macosx-10.6-x86_64.egg#md5=1691bd8fbace13fc6ce052cf47cfd2de (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2.win32-py2.6.exe#md5=c59a57d8b23d068c7efdbaa8dcf8382e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.10-py2.7-macosx-10.6-x86_64.egg#md5=42da750f40dc82b4dc913705203f8581 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5-py2.6-macosx-10.8-intel.egg#md5=6d2bcb9a4ed553f5b6db2e6fa4d077d7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.1.2pre-py2.5.egg#md5=662cef4cc11fbd52ffdd6db278ff8e8a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.1-py2.6-win-amd64.egg#md5=54455fb1e7af19014dc3d795ffdb5e69 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.6.tar.gz#md5=12e853b78eba34cece5e24286a029573 (from https://pypi.python.org/simple/pymongo/), version: 0.9.6
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.3-py2.4-macosx-10.6-i386.egg#md5=1b563df608b3ff8a2b921537ce11a849 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.11.3-py2.5-macosx-10.5-i386.egg#md5=3374fb8f9bd71ff4575c8e543c647f5b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.win32-py3.2.exe#md5=2a966d1c2f6c62a27529a2acc39c4249 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2-py2.5-macosx-10.6-i386.egg#md5=c4d39bc79301a45d866cb33af463f9b5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.1-py3.2-win-amd64.egg#md5=d7f06f5341190d3d2850dbda304dd5d0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.1pre-py2.5.egg#md5=7690491b989753aff9b66df800ccab6a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3-py2.7-win32.egg#md5=eb9d9068e9c1a2796524876c8bef6ab5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.14.1-py2.5-macosx-10.5-i386.egg#md5=548c01424e9b3c15dbd9b61741059cfe (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.2.tar.gz#md5=7507ece6f04f2d10a13e41c55df0ea86 (from https://pypi.python.org/simple/pymongo/), version: 1.2
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.6.tar.gz#md5=5281eedd759462a7414a9c07a19ce3b5 (from https://pypi.python.org/simple/pymongo/), version: 1.6
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.1.win32-py2.4.exe#md5=518ccdb5584aededa4f28c8a1e8ac1ca (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1-py2.7-win32.egg#md5=8e1c4d641a8e88aa5434858756e0483b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1-py2.6-macosx-10.7-intel.egg#md5=5927b20114e261f47df9c128bfe1ca56 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5.3pre.tar.gz#md5=4c09638b71b3590f82b9f8529689bdb8 (from https://pypi.python.org/simple/pymongo/), version: 0.5.3pre
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.5.win32-py2.4.exe#md5=c7de559c4a1645efdb05dc8ee6518ace (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3.win32-py2.7.exe#md5=ad632cecd4f18dc9ff7a6cbd8b9c878b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.3-py3.2-macosx-10.6-intel.egg#md5=a0b2364461697197bfe503745d3fe1dd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.1-py3.2-win-amd64.egg#md5=379711ff44c35b5c6c0edc4711e0f22b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0.1-py2.5-macosx-10.7-x86_64.egg#md5=bbb91d9c2fed9b77dc7f46e5e42d9690 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.2-py3.3-macosx-10.5-fat.egg#md5=f8b241397fafeadb1fd429cb5eb461f7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.15-py2.4-macosx-10.5-i386.egg#md5=d982a3a3408189dac1f4bf3564422040 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.4pre.tar.gz#md5=2c44c09704bb3fd02fbe81d5a95997ae (from https://pypi.python.org/simple/pymongo/), version: 0.4pre
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.win32-py2.7.msi#md5=fff331a77833f23830e335430f163cf3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .msi
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.6-py2.5-macosx-10.6-i386.egg#md5=586d9e00d3c841fd6d138ee862969d73 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5-py2.7-macosx-10.8-intel.egg#md5=814b418b950f7b707091dd10b60fa91e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.3-py3.2-win32.egg#md5=620e1238e9d3bf31c6d25b34fe072296 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.8.1.win32-py2.5.exe#md5=61e853e645e2db1835f4cf853cc3d2f5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.1-py2.7-macosx-10.7-intel.egg#md5=a7dc5393936237db33a962cddaf25ce3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.1-py2.7-macosx-10.7-intel.egg#md5=a40ddafb3a4ab1222572b2445e6d0842 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.1-py2.6-win32.egg#md5=181bbaed2c89573a932bf2f41e46c5b5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.1.win-amd64-py3.3.exe#md5=152e2bf27f08ef8cfc16418e367a4d8c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2-py2.5-win32.egg#md5=1eb5d33a0aed957d86aa07a1d55381a6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2-py2.7-win32.egg#md5=e97eb72cbe1895686bfc38a4efdbcbe2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.10.1-py2.6-macosx-10.5-i386.egg#md5=cc8d82c0b44f9db249447b6b317a0237 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2-py2.7-macosx-10.8-intel.egg#md5=4aa10c35c4165dc30eecbec4b1a1f4b3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.1-py2.7-macosx-10.6-intel.egg#md5=a7c1f275acdb0a9dd9ad12e779778dce (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.5.2-py2.4-macosx-10.6-i386.egg#md5=baf8f7b89514381b6cca6a76c5595205 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.7.tar.gz#md5=6e74632aa71504321cd14af327e7ab7b (from https://pypi.python.org/simple/pymongo/), version: 1.7
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2-py2.5-macosx-10.7-x86_64.egg#md5=41c5bca136a5f05ee5e48ba5258aaff5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.6-py2.5-macosx-10.5-i386.egg#md5=409a93fd5f584da6d317f3878dd3605e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.7-py2.4-macosx-10.6-i386.egg#md5=d920b5ab758dca05ef5ddda63b6eadf2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.9-py2.6-win32.egg#md5=e7ed8ee9384bb3e0cec163a4566650b5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.15-py2.6-win32.egg#md5=77bee679d96a399433c2c5866178bea3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5-py2.5-win32.egg#md5=05211a403ba89bddd0bd70d4f7557920 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.7.win32-py2.5.exe#md5=30b5a91e271d505897a29d5e16da8d62 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.win-amd64-py3.2.exe#md5=f126ace4ef4cd1c71e53cc79e2cffaa6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.11-py2.7-macosx-10.6-x86_64.egg#md5=715ecfe05cb05cfe8a4d863f79caacbb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.8.1-py2.6-win32.egg#md5=b2363aab6f41398c6c5c38d1f3ab582f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.win32-py2.6.exe#md5=34f5df16a600d47adc95e61f264925a5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.1-py2.6-macosx-10.6-i386.egg#md5=ee598ca2d3919ad7b0411621f66485ad (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.win32-py2.6.exe#md5=0aa60621cb2c52b23a89c0407e16ce59 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.11-py2.6-win32.egg#md5=feb666621e341157852032ec05195170 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.8-py2.6-macosx-10.6-x86_64.egg#md5=9e3c622874111a45622d59736e22f35c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.11-py2.5-win32.egg#md5=46f375d63c3a64194c6b5c807ed735ea (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.1-py2.6-win32.egg#md5=3bcd61b771858f4ac1056501a1700b76 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.10-py2.5-macosx-10.6-i386.egg#md5=d1d591d03ef9de1758a67d779d29beb6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.1-py3.3-macosx-10.6-intel.egg#md5=e14cc52141886905375cac15fdc84ab5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1-py2.6-win-amd64.egg#md5=a76e0af7971c9c55831c3ef11704e8d2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.1.win32-py3.3.exe#md5=3303d0601cc5699a56975dcf21771bd0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.13-py2.6-macosx-10.5-i386.egg#md5=7fb9ca90ddf380839628265197b80317 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.10.2-py2.6-macosx-10.5-i386.egg#md5=e8ce15fa16785ea49e6ff27dcf82d376 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2.1-py2.5-macosx-10.6-i386.egg#md5=a620fdc4d33b4757e9fd91c799374078 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.2.1.tar.gz#md5=bd9aa7273468304055875baaa582ddd3 (from https://pypi.python.org/simple/pymongo/), version: 1.2.1
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.14-py2.4-macosx-10.5-i386.egg#md5=8bb94fa3c70af57193b65ff55ab5086a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.win-amd64-py2.6.exe#md5=ab766d4b858540f0e563aae0751a20f9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.0.win32-py2.4.exe#md5=8f3aa18db8f279c5b4013611febc0dbf (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.5.tar.gz#md5=c5116d3d859236d91bc0ec2b7ae2b89f (from https://pypi.python.org/simple/pymongo/), version: 1.5
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.2.tar.gz#md5=101dd4ae59bdd487f67b3a3968a82c8c (from https://pypi.python.org/simple/pymongo/), version: 2.2
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.4.2-py2.4-win32.egg#md5=4d1155338d9ef00463445bf0aa16c30b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.1.win-amd64-py3.2.exe#md5=f007f68d5f8de467ecc44c3213d769a6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.1.win32-py3.2.exe#md5=521ab33f100fbf0fa47841001cbf291c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.6-py2.6-macosx-10.5-i386.egg#md5=4f701188675069bddaa38e34851ccc7f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.1-py3.3-win-amd64.egg#md5=279c730baf2a37e36bc069d91b536a7e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.tar.gz#md5=4e246c856e56cb9c051b43f5b4033122 (from https://pypi.python.org/simple/pymongo/), version: 0.9
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.8.tar.gz#md5=a4fd7f235e9df1f0a4d2724076619f9d (from https://pypi.python.org/simple/pymongo/), version: 1.8
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5-py3.2-macosx-10.6-intel.egg#md5=b3c960e1d8813fe18f217dffd189d2df (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.1.tar.gz#md5=a1906b69f2f7635fe3fef309acde3af5 (from https://pypi.python.org/simple/pymongo/), version: 1.1
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2-py2.7-macosx-10.6-intel.egg#md5=380c0cc00970faecc630ba3fcd47f98e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.3-py2.5-macosx-10.7-x86_64.egg#md5=e60d41c25fa64e84970a7e6ca5627e59 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.2-py2.5-win32.egg#md5=92bb3c6b6b60d3687399e2a2a0d4a5f9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0-py2.7-macosx-10.7-intel.egg#md5=59979b9e84224e9dc5a21e2a1f2f690e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.5.1pre-py2.5-macosx-10.3-i386.egg#md5=ebee0dd3151f2aae77e8ded139b70a5e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.3.win-amd64-py3.2.exe#md5=c1b42cff091180c30d9beb1d80c3229c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.7.2-py2.6-macosx-10.5-i386.egg#md5=879ed539fc885380fdd32748d6e934dc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.3/p/pymongo/pymongo-0.15-py2.3-macosx-10.5-i386.egg#md5=85d27326985481fd8f3e4870ebe44921 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1.win-amd64-py2.7.exe#md5=532d030ad37abddd75c86bb2a48c1cc6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2-py3.2-win32.egg#md5=0da6785aa85cfe9d78777d22eccb79d3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.1-py2.5-macosx-10.8-x86_64.egg#md5=f67293e4b49d524fb5f5f2857b1da9a3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.1.2-py2.4-macosx-10.6-i386.egg#md5=22daa05173cc59eab37a94a8674b9924 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2.win32-py2.7.exe#md5=3300ea624bb5c65312ee592266caa7de (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.2.1-py2.6-macosx-10.6-i386.egg#md5=0e4c9aec5021ace00ba7e620e6718b77 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.1-py2.6-macosx-10.7-intel.egg#md5=a781dc04e48f08fedcc6cc47ba2b2f16 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.4.tar.gz#md5=6934eebb7cf3a08b2c79c85a1b4c4e4a (from https://pypi.python.org/simple/pymongo/), version: 0.9.4
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.3.tar.gz#md5=02685014addd9d6ffc6398e7f6b36133 (from https://pypi.python.org/simple/pymongo/), version: 0.9.3
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.4-py2.5-macosx-10.6-i386.egg#md5=cadd5a1cb3766d52b02614f08a16e22d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.7.tar.gz#md5=8c67d1ed163aea44e22edbee2ba997c6 (from https://pypi.python.org/simple/pymongo/), version: 0.7
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.8.1.tar.gz#md5=4d42a5624e1eab4d75aaae5103f7c39c (from https://pypi.python.org/simple/pymongo/), version: 1.8.1
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0.win32-py2.5.exe#md5=54bb8f7d4a606f37c517894bb2c6367c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.win32-py2.7.exe#md5=c5af831d702abeec8ef7f724cdcb26b4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2-py2.6-win-amd64.egg#md5=a619502adb9606daf23a7c8333f5dfdb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.0.tar.gz#md5=8cd04065b115dd186b18cb3e8e3025c6 (from https://pypi.python.org/simple/pymongo/), version: 2.0
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.1.win32-py2.7.exe#md5=2b8f204766dca9df9607a4860510a57a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.win-amd64-py2.6.exe#md5=e158aeeb509659fe6bc6c05d19f21848 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.1.1.win32-py2.4.exe#md5=968d4c24c12bdaf8175009a836c103f6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3-py2.6-win-amd64.egg#md5=f8b7f4fd5cde9c42a2060b879fe0c5d7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4-py2.6-macosx-10.7-intel.egg#md5=abc8de89ec579729480b47299b895df1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2-py2.6-win32.egg#md5=070ddc34249d123332ce35e53484c06c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.3/p/pymongo/pymongo-0.14.2-py2.3-macosx-10.5-i386.egg#md5=81848ae64fc1368dde98bc2b7fd6f1bc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.1-py2.4-macosx-10.6-i386.egg#md5=7fa8f8760954b5c959c1bc2967d3f48a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.0.tar.gz#md5=5c5112e407b2614b73acb4e4a022b7bd (from https://pypi.python.org/simple/pymongo/), version: 1.0
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.1.win32-py2.7.exe#md5=4e546df2205a79aa4b4a9557719269b2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.5-py2.6-macosx-10.5-i386.egg#md5=27dcd8b57a56c7ca3525c638b8206c67 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3-py2.7-macosx-10.6-intel.egg#md5=ea64f193c91754d22bb77e9170c93743 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.win32-py2.6.exe#md5=c782fbd34265f9ccffd2b1913bb1f701 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.9-py2.7-macosx-10.6-x86_64.egg#md5=5dabeb19006c1f34a9e30b18cb306e10 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.1-py2.7-macosx-10.6-intel.egg#md5=8f23652f624bb3a8d54d33d4d34f7371 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5-py2.6-macosx-10.6-universal.egg#md5=e816c1fd172d0aedde60f1434a8541c6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.10.1-py2.5-win32.egg#md5=a0acd3f9261de60cf117653bf7441a5b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1-py2.7-win32.egg#md5=57abb8a10e8d251990bcb59c882a8e61 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.1-py2.6-win32.egg#md5=967bdc69dbf2a263e666c4e18154f57e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.11-py2.6-macosx-10.5-i386.egg#md5=565c5e42a363865bfc9c553d218eccf3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.1-py2.5-macosx-10.6-i386.egg#md5=68d1d1a83e41f27269c4484c87b19031 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1.win32-py2.6.exe#md5=d26da22105ad7a6f8a56657a5d462f0d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.14.1-py2.4-macosx-10.5-i386.egg#md5=a762600694275f00a4674a032e1aef07 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.1-py2.7-win32.egg#md5=2dae7afe905bde908e610469f9b49777 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4-py3.2-macosx-10.3-fat.egg#md5=0344a8a0ed851214e8f20c379dff46f6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.9.win32-py2.5.exe#md5=b65f27ec25d97aeeb6c00fc06657121a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.1-py3.2-macosx-10.3-fat.egg#md5=1b654adf2063ddc77679495506ce0528 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.16-py2.5-macosx-10.6-i386.egg#md5=f5f986ae270e4a525a77fd16fdb6ad0b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.8.win32-py2.6.exe#md5=4733f9fe053f45397f04a061793f4526 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.8.tar.gz#md5=d9bb164656283943899603e5555cb6e1 (from https://pypi.python.org/simple/pymongo/), version: 0.8
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.3.1pre.tar.gz#md5=f9fb271a92c31eab0fe1b6e7e6e25210 (from https://pypi.python.org/simple/pymongo/), version: 0.3.1pre
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.2-py2.4-macosx-10.6-i386.egg#md5=136767504702ae368436f4a949ca6532 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.1-py3.3-win32.egg#md5=14d4e6e9c5d6a66c5b55aa69270df3e8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.6-py2.6-macosx-10.6-x86_64.egg#md5=d6e1587a2a6c843e20d9cc6021309076 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1.win-amd64-py2.7.exe#md5=c207ec142646c71572c109964ae14f86 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.1-py3.2-macosx-10.6-intel.egg#md5=225795f89345fb0211e5848d46c20422 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.8-py2.4-macosx-10.6-i386.egg#md5=5b3474ffec13b0b086ba54a0e9d572f9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.7-py2.5-macosx-10.6-i386.egg#md5=9668bd43311d098524efabf771f717b9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.1-py2.5-macosx-10.8-x86_64.egg#md5=0325c087f9d87de45b83ad251066f948 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.2-py2.5-macosx-10.6-i386.egg#md5=751e3ef70672d0dc3cfcf18555aad01e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5-py2.7-win-amd64.egg#md5=b274eb57000c54da6520eee41a633734 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1-py2.7-win32.egg#md5=da56ca36948a29126b89eb39b1813dac (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5.1pre.tar.gz#md5=9b2b0e2db274b32e9c55eda7ecc54b7a (from https://pypi.python.org/simple/pymongo/), version: 0.5.1pre
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.10.1.win32-py2.6.exe#md5=d029f0affe28eb8cc7fdef31d58d8f89 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.1.1-py2.5-macosx-10.6-i386.egg#md5=8da4c223cb37e7dfe409b6c8fcf427cd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.3-py2.4-win32.egg#md5=7afa53262d1382145af9dc06ca927e96 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.5.1.win32-py2.4.exe#md5=f66b6fea868119a01e31e9648a2ab682 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.win32-py2.7.exe#md5=620e89efba6be15dbcc176395e6680ca (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1-py2.6-macosx-10.7-intel.egg#md5=713bf1257f3dae43f8d713a71a399514 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1-py2.7-macosx-10.8-intel.egg#md5=19a27fab33ca644d433c76b2323e37ab (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.2.1.win32-py2.4.exe#md5=02a6e5ce42b959d8788f66103b6aaef6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2.1-py2.5-macosx-10.7-x86_64.egg#md5=c7849b9fd733ceae6f0e4fc346319f31 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5-py2.6-win32.egg#md5=16ed015b9a37e2c5f39433a6e2783a06 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.2.win32-py2.4.exe#md5=8bd52fe502cbcc779cd999c0168f0ba7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.1.1.tar.gz#md5=631279fb113126e40535c66b95498a42 (from https://pypi.python.org/simple/pymongo/), version: 1.1.1
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.2-py3.2-macosx-10.3-fat.egg#md5=6beba5fe69775d23e0277a38ccb01f98 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.13.tar.gz#md5=283b78fda5b0e386ab226eb572e1931a (from https://pypi.python.org/simple/pymongo/), version: 0.13
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.1.win32-py2.5.exe#md5=f2f8082b40df32cef16cce4260be73a9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4-py2.5-macosx-10.7-x86_64.egg#md5=25eeedd1dedd20bf6da6b3ec868de449 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.16-py2.6-macosx-10.6-i386.egg#md5=44b11b7a8ca00d30e14da3e54fe70671 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.1.1-py2.4-win32.egg#md5=e3c199e68fd498a4c90fcdd3a02b4723 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.5.2-py2.5-win32.egg#md5=87b8377307bdcf4decab57ac61d12f37 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.10.3.tar.gz#md5=934987198a2e15ce1b4838edac710d40 (from https://pypi.python.org/simple/pymongo/), version: 0.10.3
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.4-py2.6-macosx-10.5-i386.egg#md5=937bf0f69de4582ec27e2c1d244c7a03 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.11.win32-py2.5.exe#md5=878d02f4036e8db487ede98b0bfccfba (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.1-py2.7-win32.egg#md5=a67e8239052911f384fe06e31f589d30 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.1-py3.2-win32.egg#md5=1474f8757a242e624440cdd8763b4e46 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.0-py2.5-macosx-10.6-i386.egg#md5=7c0acbdc6d6cbca635146667188a9f77 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2.win-amd64-py2.6.exe#md5=c18346b1173e9502454c9580020652e2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.8.1-py2.6-macosx-10.5-i386.egg#md5=d190f8bbd3b67f3a54b51ecdcd3e6632 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.1-py2.6-macosx-10.7-intel.egg#md5=e242b67e2643edc31db0851858f28839 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.8-py2.6-macosx-10.5-i386.egg#md5=903798baffda3c4804cb772512a9ec8c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.1.1-py2.6-macosx-10.6-i386.egg#md5=cb7bb265bc662818afd3889326905ac7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1.1-py2.5-win32.egg#md5=1be0d36b0041974d7bf4a6d1b32fe2e7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.1-py2.7-macosx-10.7-intel.egg#md5=aed55156da6fd92ef7c9687a69f05004 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.11-py2.7-win32.egg#md5=e97de10eede1dec7e7a4e35709ee2a03 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.1.win-amd64-py2.7.exe#md5=0290ddcfbf908243fed1c4d63ae03564 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.win32-py2.6.msi#md5=3cae48e0e347bdb1f0686802f34c726a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .msi
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.1.win32-py2.7.exe#md5=d2f700869e838e77393596dd293a79c6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.0-py2.4-win32.egg#md5=d9b0ef0198b52d2f0ba53bdb57fb7c1c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4.1-py3.3-macosx-10.5-fat.egg#md5=2ddd6da0735b7c6b80d8cb6613319320 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.1.2.tar.gz#md5=627ff87b0cd14cd45e0bc5357426d180 (from https://pypi.python.org/simple/pymongo/), version: 1.1.2
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.13-py2.4-macosx-10.5-i386.egg#md5=c2a4712976a969a9117682ea0961e5bc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.win-amd64-py2.6.exe#md5=1919499d1e9c0cb9c71f8247080a6cbb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.5pre-py2.5-macosx-10.3-i386.egg#md5=b0473d263d1430fc7e8eabc753762eb2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.10-py2.5-win32.egg#md5=b531811e8bc87997090eda7c7a4cb2d0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.3-py3.2-macosx-10.3-fat.egg#md5=6cc3e83c039bb8dba361346f94c7839e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.3-py2.5-macosx-10.6-i386.egg#md5=92b88f0317824253689d8e1dbd4a0883 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1-py2.6-win-amd64.egg#md5=c77bbd1ec484cecd15e549e9fded7a23 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.1-py3.2-win32.egg#md5=2bdcee11912a0bbdd24645e50f1ea037 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.3-py2.5-macosx-10.8-x86_64.egg#md5=649b65686140501b6a3ba018440b61dd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.1.win32-py2.6.exe#md5=3fa832031407611bc1c35a685102bd31 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.7-py2.6-macosx-10.6-x86_64.egg#md5=22b719c5e346e97b84619a42fdd01936 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.2-py2.6-macosx-10.5-i386.egg#md5=ae4d6a096e0637d642ddb41e366d6ee3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.5.2-py2.6-macosx-10.6-i386.egg#md5=07d22f774c605247d30d0132ab1b6b20 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2-py2.6-win-amd64.egg#md5=f84e3ce061002c4e979c8073270cfd51 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2-py2.7-macosx-10.7-intel.egg#md5=82b84d41c6283af52fc95d333f017be0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.8.1.win32-py2.6.exe#md5=ceb6409ee8aa4ead2cc76f2610152cc1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3-py2.6-macosx-10.8-intel.egg#md5=3175ad0147e6e677e2caca7e1c031c39 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.1.2-py2.5-macosx-10.6-i386.egg#md5=a9413ecf8b06ce7210363b477231b061 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.10-py2.4-win32.egg#md5=08e6581433dfaba92d8a31b9c1fa0df2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.11.3-py2.6-macosx-10.5-i386.egg#md5=f8e0ad509c3f190ebdba9e83a89c28a3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.1-py2.6-macosx-10.6-universal.egg#md5=d935056d80444866996d45bcda63ef0a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.9-py2.4-macosx-10.6-i386.egg#md5=febf7826d8ccb4ca00cdfd18350905d9 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.8.1-py2.6-macosx-10.6-x86_64.egg#md5=47159e739f76eca5d9fc8e981d6c640f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.7-py2.6-macosx-10.5-i386.egg#md5=010e63213f7bbfac6a28f7b9c8ca5bff (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.1-py2.5-macosx-10.6-i386.egg#md5=0f1414be168cd42fdb8b5650443a2227 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.3-py2.5-macosx-10.6-i386.egg#md5=78a9a0a50a43b14d1a9f0c1b2ef1539a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.4-py2.6-macosx-10.6-i386.egg#md5=0f687553b76ec4dadd07eb660a6e4940 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.4-py3.3-win32.egg#md5=8738c01ee062945e647fad69246a2805 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4-py2.6-macosx-10.6-universal.egg#md5=217d259a578441053d8f9c2444338e7a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.10.win32-py2.5.exe#md5=b315daa227c1cfa0d9d65a9a434c535d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.13-py2.6-win32.egg#md5=620ee94f4ef754e3ef086da59c5e3947 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.10.1-py2.6-win32.egg#md5=41ea37275a316aa7d21fd972f24003ee (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1.1.win32-py2.6.exe#md5=96d06754eeca00dbe01e0cfc8076775e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.3-py2.6-win32.egg#md5=0469ca20bef2b3c3744a50f936f60bf0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1-py2.6-macosx-10.7-intel.egg#md5=4905853a5deb0c2b0ae2841330bd7111 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.5-py2.5-win32.egg#md5=7381fb776dac94319f552216b8068600 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.1-py2.4-win32.egg#md5=a1e802afe5a5db16f31736124dfd9659 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.5.2pre-py2.5-macosx-10.5-i386.egg#md5=ae669ea694f76ece43af78e1bb237c39 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.0.1-py2.7-macosx-10.6-intel.egg#md5=36e20ae0feacb6e275bc1b98faae339b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3-py2.7-win-amd64.egg#md5=13efd73d546bbc335efa1f279ec14176 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.1-py2.5-macosx-10.7-x86_64.egg#md5=ca2a065edbeb224f8cde929c4e0bd5f6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.2.tar.gz#md5=c08f6bd25ff7cf6fb342c628e6ef645c (from https://pypi.python.org/simple/pymongo/), version: 0.9.2
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.14-py2.6-macosx-10.5-i386.egg#md5=074747f9f992298fe2e6cc66be96636f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.1.tar.gz#md5=40f8c8be0edcea398ba41d5d3ba5e8b0 (from https://pypi.python.org/simple/pymongo/), version: 2.1
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1.win32-py2.7.exe#md5=77d76fde1171ddc6aff2daff10e9dc96 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.4-py2.5-win32.egg#md5=7683fa3407fb14a98b9df15890bb616f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.2.win32-py3.2.exe#md5=bbb4910febf2b095c621acdf2ab07fd8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0-py2.6-macosx-10.6-universal.egg#md5=3aff58f765ee13ffa7a718f3ff86910c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0-py2.6-win32.egg#md5=1ff3f3e3e10bb004529ad21e15ccb2b2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.9-py2.6-macosx-10.6-x86_64.egg#md5=63bc02e69f668ab688ffda8fc6d37fda (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.10.tar.gz#md5=e88cd1306cf8913e808a51537b0d579c (from https://pypi.python.org/simple/pymongo/), version: 1.10
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.2.win32-py3.2.exe#md5=e856dc680f2f7b71140e8a2423df4863 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.5.2-py2.6-win32.egg#md5=b46cdcdb6f147ea9fa0bc18f1e203a3f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.5.1-py2.6-macosx-10.6-i386.egg#md5=9065debfe0cd01182315d1629bffe2c4 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.2-py2.5-macosx-10.8-x86_64.egg#md5=e942dc862dc2327c2f7dfe3dc7c51cfb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.1-py2.5-win32.egg#md5=473e65d48c9001474a77f14cb6178e8b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.1-py2.7-macosx-10.7-intel.egg#md5=4e0a7cc425f89741a5099981b3e4d470 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.5.3pre-py2.6-macosx-10.5-i386.egg#md5=a823b746643cd0d3891133369ade2600 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.16-py2.5-win32.egg#md5=f2026d0b4e4235e5d7af9d8bb7284e5d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.14.2-py2.6-macosx-10.5-i386.egg#md5=9c53e0f4d0c0b9ae8f76fddb048a9e5f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3-py2.7-macosx-10.7-intel.egg#md5=6bf851530c4d56ff1b18e4c8e5c641f6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.6-py2.5-win32.egg#md5=61c8612155990bbf1388a91a682ee429 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.5.1-py2.5-macosx-10.6-i386.egg#md5=111fed4688e5011b42fbea1804575a28 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5-py3.2-macosx-10.3-fat.egg#md5=59b5249914cd070785f9f16dcb0d0cab (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.15.tar.gz#md5=d9b8e28dcd735cadab1c0d3664d90988 (from https://pypi.python.org/simple/pymongo/), version: 0.15
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.9.tar.gz#md5=12e12163e6cc22993808900fb9629252 (from https://pypi.python.org/simple/pymongo/), version: 1.9
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-1.8.1-py2.5-win32.egg#md5=615d31e5e04e79d0d29302ce03c28b3d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.5-py2.6-win32.egg#md5=cef89f386c04c47428ea7312099785c8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.win32-py3.2.exe#md5=664ba780d606a346c09c99b645671e3f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.4.2-py2.5-macosx-10.6-i386.egg#md5=80eef19dff7dc136dc5b8225c3ce4880 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.12-py2.6-win32.egg#md5=7bc3e1b6353dae48f12afd8cccc6b5bc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.11-py2.4-macosx-10.6-i386.egg#md5=030f62281fee3d235cbd6d8cf3aca57e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5-py3.2-win32.egg#md5=fe3f1f1cc8b318cd37136a28cefa096b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.15.1-py2.5-macosx-10.6-i386.egg#md5=64f69910851480ec94bd8e9e6d9e8405 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.7.1.tar.gz#md5=444ddabe8ac57c77520fd17276844d8a (from https://pypi.python.org/simple/pymongo/), version: 0.7.1
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.11.2-py2.6-win32.egg#md5=fc972a12b41beddac2ea11a1f7cec4df (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.2-py2.6-macosx-10.6-i386.egg#md5=f35da2390b4e7fc5cd6d38d11cea5906 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.11.tar.gz#md5=3f2088b688800ddefaf2b7740d2674bd (from https://pypi.python.org/simple/pymongo/), version: 1.11
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.5.1-py2.6-win32.egg#md5=ae915e1b8c091b7c2427965c8f0b3d2e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.6-py2.6-win32.egg#md5=21ed87f19130566e3a55d2b762a9c71d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.11.win32-py2.4.exe#md5=04be04833af33510286e6c58b18265ac (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.1-py3.3-macosx-10.6-intel.egg#md5=2a06f3926293a20800c4b2c35183d017 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.1.win-amd64-py3.2.exe#md5=489946d7092eb04bd8ad6c7496ca4d94 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.2.win-amd64-py3.2.exe#md5=1ec41d574a28d64e76b509aa05984d95 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.2.win-amd64-py2.7.exe#md5=0610b7a6eafcd7ba3856d0fb2abf9d7f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.11.2.tar.gz#md5=e8b3f5955f4e6dd999b607f9ef25a09b (from https://pypi.python.org/simple/pymongo/), version: 0.11.2
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4.2-py3.2-win32.egg#md5=6480e0744466b9c4c17b5737ed616fcc (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.win-amd64-py3.3.exe#md5=b824d5ec09621c1e9310a416f551acde (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.16.tar.gz#md5=d51878f52b14f20acb384bb01c196551 (from https://pypi.python.org/simple/pymongo/), version: 0.16
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.2.win32-py2.7.exe#md5=33374913cd0646cba04302223a3ae246 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.1-py2.6-win32.egg#md5=d7a445a303b09f3a3dd865faa0a08917 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-0.15.1-py2.4-macosx-10.6-i386.egg#md5=39a5547612b29e54943e01e81d273322 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.10.3-py2.6-macosx-10.5-i386.egg#md5=06dbdf1dbccdef6be9bcbe88f7eb1b80 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.4.1.win32-py2.7.exe#md5=c1962db0dc460a2604a50fff3d80f658 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.4.2-py2.6-macosx-10.6-universal.egg#md5=dd188929aa508aa762a3a6d65ad7502b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.1-py2.5-macosx-10.6-i386.egg#md5=eb565b6500cb1a5e6212c3be699d20ce (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.9.1-py2.6-macosx-10.5-i386.egg#md5=c3d87c3ac42630701381570d9d7b2364 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.10.1.tar.gz#md5=9e94096991285c384adfa8cafaf39c88 (from https://pypi.python.org/simple/pymongo/), version: 1.10.1
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-0.14-py2.5-macosx-10.5-i386.egg#md5=a53edba0780ad61c98e58f0ce65c1dd7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.4-py3.2-win-amd64.egg#md5=a39a629acc508f6f0b46c8c62021e08a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.2.win-amd64-py3.2.exe#md5=4f1139290686dbf18927224675186718 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2-py2.6-win32.egg#md5=c7f96026b68ac2310cadda64618a2926 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.2-py2.5-macosx-10.8-x86_64.egg#md5=cb53e470096c42ba893b260e41c595e7 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-1.10.win32-py2.7.exe#md5=0c52becdefbce02ada4aeaadd7a1befb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2-py2.7-macosx-10.8-intel.egg#md5=b09e1e3711b52c25261231c1de0a0990 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.4.1.tar.gz#md5=be358dece09bc57561573db35bc75eb0 (from https://pypi.python.org/simple/pymongo/), version: 2.4.1
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.2-py3.2-win-amd64.egg#md5=b603d645ca71968f88c2f41f24c31008 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.2.win-amd64-py3.3.exe#md5=2ad2bbce6c34a2b6c5a2b1a1f519d37e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.2-py3.2-macosx-10.6-intel.egg#md5=ae7391be5d29664f6bdc742249bcf913 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.2-py2.5-macosx-10.6-i386.egg#md5=5ca37790f9eb998d8df4f895fe9a0c7a (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2.win-amd64-py2.6.exe#md5=0aecd779b4047188b2aecddb3aee2b40 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.2-py2.5-macosx-10.7-x86_64.egg#md5=8b89488f390265341c895efe23e89408 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.2-py3.3-macosx-10.5-fat.egg#md5=6e89ed36cf6126f4dcaa430a43d1ace6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.5.tar.gz#md5=8dd2f563c25f92d07a15a3d37e0adbe8 (from https://pypi.python.org/simple/pymongo/), version: 2.5
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.2-py3.2-macosx-10.3-fat.egg#md5=f81614a3a9207c628016eefbddba57fe (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.2-py3.3-macosx-10.6-intel.egg#md5=64f47f23497e268748e74964c8ff518e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.2.win32-py3.2.exe#md5=3ce8cf36066ea097d810b70b0fe963f0 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.5.2.win32-py2.4.exe#md5=49e9cb7340f39ad4b272c7aa3aaaf16d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2-py2.6-macosx-10.7-intel.egg#md5=0e31c3e70235497adb4999bc030f77b1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2-py2.7-macosx-10.7-intel.egg#md5=3d31c1c1256b030e5991eee379f5f73c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.2-py2.5-win32.egg#md5=bd0093a3e4a1098dfa1e640a81b617dd (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.2-py3.2-win32.egg#md5=977d88a1e6244e07955c179f059d1520 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-2.5.2-py2.4-win32.egg#md5=1bb9a203878b55b6302a51811223fd13 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2-py2.6-macosx-10.8-intel.egg#md5=261f6addf58de12598ff2da3c32892e2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2-py2.7-macosx-10.6-intel.egg#md5=7968ce756297372a4abdb373af5d907c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2.win32-py2.6.exe#md5=dcf55c75ada351bd74de98b94e1621e3 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.3.win-amd64-py2.7.exe#md5=24292c38e631f3f074d3f5ae3343210e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2.win-amd64-py2.7.exe#md5=9a6eac8ab14659f516f4d9ff7791e82e (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.1-py2.6-macosx-10.6-universal.egg#md5=416cbea124a8d9edd8b517672314bd1c (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.5.2.tar.gz#md5=d1ada91f0ec474534eab88429fb6ce5e (from https://pypi.python.org/simple/pymongo/), version: 2.5.2
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.5.2.win32-py2.5.exe#md5=3a48476b00b0b6b68de16022156ef8db (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.2/p/pymongo/pymongo-2.5.win-amd64-py3.2.exe#md5=93cdabb7234a1e9281e76fc0a8b1b9d6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.2-py3.3-win-amd64.egg#md5=98b9252a3c8f2714c5ff125ea3af21cb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-1.3.tar.gz#md5=600eff38018681cffdd0bdddb9658a3f (from https://pypi.python.org/simple/pymongo/), version: 1.3
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.1-py2.6-macosx-10.6-universal.egg#md5=3fca5ce44721d6db5e3d1391ef08e64b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2-py2.6-win-amd64.egg#md5=3c243b66c0112fb9e868bc411e7a39a8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2-py2.7-win32.egg#md5=befdb7e2f3dc6f5f44db4d977e30ec98 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/p/pymongo/pymongo-1.8.1-py2.4-macosx-10.6-i386.egg#md5=85fcd304294bfef01f8da6eb1940aafa (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2.win32-py2.7.exe#md5=5c522877b902817fa14349b0430d94e6 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.0.1.win32-py2.6.exe#md5=6d8c59b5ac64d2b70bbd6900921de996 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.1.1.tar.gz#md5=fa0e171cf2538b77215ccff4f4126edd (from https://pypi.python.org/simple/pymongo/), version: 2.1.1
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-0.6-py2.6-macosx-10.5-i386.egg#md5=d1cbd3cef809609721d6c7752ac9aee8 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.5.2-py2.6-macosx-10.6-universal.egg#md5=3e0d2074327ed589d71b59d10adccd6d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.2.win32-py3.3.exe#md5=6e3af163efcd59fce4ebe54dfbdb653b (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.3.win32-py2.6.exe#md5=8d39005f4f19161479d48947f11f72b2 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/3.3/p/pymongo/pymongo-2.5.2-py3.3-win32.egg#md5=55b59372090a1049cf22be87d68700bb (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.0.1.tar.gz#md5=36300a5c3568707f6c5f1692f42ca008 (from https://pypi.python.org/simple/pymongo/), version: 2.0.1
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-2.5.1.tar.gz#md5=5e28d43081b74c59ae2f0e688c6d40a3 (from https://pypi.python.org/simple/pymongo/), version: 2.5.1
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-2.2.1-py2.6-macosx-10.7-intel.egg#md5=e846bcf8c0cfd8a3e64524aaac91bcd1 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.9.5.tar.gz#md5=268ae9554120ad42e8919940d40f7085 (from https://pypi.python.org/simple/pymongo/), version: 0.9.5
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.10-py2.6-win32.egg#md5=7277c6b32425d5b58a35eefb9ea30621 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.7/p/pymongo/pymongo-2.5.2-py2.7-win-amd64.egg#md5=e9b94cbfdf4b4a173923c4f4bc94413d (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/p/pymongo/pymongo-1.7.win32-py2.6.exe#md5=004fdb77ea9f4257e1353ad42e4e4dc5 (from https://pypi.python.org/simple/pymongo/); unknown archive format: .exe
+    Skipping link https://pypi.python.org/packages/2.5/p/pymongo/pymongo-2.2.1-py2.5-win32.egg#md5=b3694dfbb61fea249255ddf84b6f174f (from https://pypi.python.org/simple/pymongo/); unknown archive format: .egg
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.1.1pre.tar.gz#md5=28823b0f691b2e2e3ae448c246cac5ed (from https://pypi.python.org/simple/pymongo/), version 0.1.1pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.1.2pre.tar.gz#md5=1c969367addb5b2e096514eff321fa06 (from https://pypi.python.org/simple/pymongo/), version 0.1.2pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5.2pre.tar.gz#md5=8b4b86001138dacb138e98f30d325950 (from https://pypi.python.org/simple/pymongo/), version 0.5.2pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.3pre.tar.gz#md5=07e1b9ed02ceb1c4627bbb4429e02ff7 (from https://pypi.python.org/simple/pymongo/), version 0.3pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5pre.tar.gz#md5=9799af3d47b747e5046fc4a0fdb28117 (from https://pypi.python.org/simple/pymongo/), version 0.5pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.1pre.tar.gz#md5=8cdfe94096af89570fa6c180ebfd1280 (from https://pypi.python.org/simple/pymongo/), version 0.1pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.2pre.tar.gz#md5=164b80faa1a2694339f5315bdcbde86f (from https://pypi.python.org/simple/pymongo/), version 0.2pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5.3pre.tar.gz#md5=4c09638b71b3590f82b9f8529689bdb8 (from https://pypi.python.org/simple/pymongo/), version 0.5.3pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.4pre.tar.gz#md5=2c44c09704bb3fd02fbe81d5a95997ae (from https://pypi.python.org/simple/pymongo/), version 0.4pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.3.1pre.tar.gz#md5=f9fb271a92c31eab0fe1b6e7e6e25210 (from https://pypi.python.org/simple/pymongo/), version 0.3.1pre is a pre-release (use --pre to allow).
+  Ignoring link https://pypi.python.org/packages/source/p/pymongo/pymongo-0.5.1pre.tar.gz#md5=9b2b0e2db274b32e9c55eda7ecc54b7a (from https://pypi.python.org/simple/pymongo/), version 0.5.1pre is a pre-release (use --pre to allow).
+  Using version 2.5.2 (newest of versions: 2.5.2, 2.5.1, 2.5, 2.4.2, 2.4.1, 2.4, 2.3, 2.2.1, 2.2, 2.1.1, 2.1, 2.0.1, 2.0, 1.11, 1.10.1, 1.10, 1.9, 1.8.1, 1.8, 1.7, 1.6, 1.5.2, 1.5.1, 1.5, 1.4, 1.3, 1.2.1, 1.2, 1.1.2, 1.1.1, 1.1, 1.0, 0.16, 0.15.2, 0.15.1, 0.15, 0.14.2, 0.14.1, 0.14, 0.13, 0.12, 0.11.3, 0.11.2, 0.11.1, 0.11, 0.10.3, 0.10.2, 0.10.1, 0.10, 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, 0.9, 0.8.1, 0.8, 0.7.2, 0.7.1, 0.7, 0.6)
+  Downloading from URL https://pypi.python.org/packages/source/p/pymongo/pymongo-2.5.2.tar.gz#md5=d1ada91f0ec474534eab88429fb6ce5e (from https://pypi.python.org/simple/pymongo/)
+  Running setup.py egg_info for package pymongo
+
+    running egg_info
+    creating pip-egg-info\pymongo.egg-info
+    writing pip-egg-info\pymongo.egg-info\PKG-INFO
+    writing top-level names to pip-egg-info\pymongo.egg-info\top_level.txt
+    writing dependency_links to pip-egg-info\pymongo.egg-info\dependency_links.txt
+    writing manifest file 'pip-egg-info\pymongo.egg-info\SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+
+    reading manifest file 'pip-egg-info\pymongo.egg-info\SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info\pymongo.egg-info\SOURCES.txt'
+  Source in c:\users\ruben\appdata\local\temp\pip-build-ruben\pymongo has version 2.5.2, which satisfies requirement pymongo
+Installing collected packages: pymongo
+
+  Running setup.py install for pymongo
+
+    Running command C:\Python27\python.exe -c "import setuptools;__file__='c:\\users\\ruben\\appdata\\local\\temp\\pip-build-Ruben\\pymongo\\setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record c:\users\ruben\appdata\local\temp\pip-jypk_3-record\install-record.txt --single-version-externally-managed
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-2.7
+    creating build\lib.win-amd64-2.7\bson
+    copying bson\binary.py -> build\lib.win-amd64-2.7\bson
+    copying bson\code.py -> build\lib.win-amd64-2.7\bson
+    copying bson\dbref.py -> build\lib.win-amd64-2.7\bson
+    copying bson\errors.py -> build\lib.win-amd64-2.7\bson
+    copying bson\json_util.py -> build\lib.win-amd64-2.7\bson
+    copying bson\max_key.py -> build\lib.win-amd64-2.7\bson
+    copying bson\min_key.py -> build\lib.win-amd64-2.7\bson
+    copying bson\objectid.py -> build\lib.win-amd64-2.7\bson
+    copying bson\py3compat.py -> build\lib.win-amd64-2.7\bson
+    copying bson\son.py -> build\lib.win-amd64-2.7\bson
+    copying bson\timestamp.py -> build\lib.win-amd64-2.7\bson
+    copying bson\tz_util.py -> build\lib.win-amd64-2.7\bson
+    copying bson\__init__.py -> build\lib.win-amd64-2.7\bson
+    creating build\lib.win-amd64-2.7\pymongo
+    copying pymongo\auth.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\collection.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\common.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\connection.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\cursor.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\cursor_manager.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\database.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\errors.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\helpers.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\master_slave_connection.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\message.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\mongo_client.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\mongo_replica_set_client.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\pool.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\read_preferences.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\replica_set_connection.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\son_manipulator.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\ssl_match_hostname.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\thread_util.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\uri_parser.py -> build\lib.win-amd64-2.7\pymongo
+    copying pymongo\__init__.py -> build\lib.win-amd64-2.7\pymongo
+    creating build\lib.win-amd64-2.7\gridfs
+    copying gridfs\errors.py -> build\lib.win-amd64-2.7\gridfs
+    copying gridfs\grid_file.py -> build\lib.win-amd64-2.7\gridfs
+    copying gridfs\__init__.py -> build\lib.win-amd64-2.7\gridfs
+    running build_ext
+    building 'bson._cbson' extension
+
+    Traceback (most recent call last):
+
+      File "<string>", line 1, in <module>
+
+      File "c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo\setup.py", line 314, in <module>
+
+        **extra_opts
+
+      File "C:\Python27\lib\distutils\core.py", line 152, in setup
+
+        dist.run_commands()
+
+      File "C:\Python27\lib\distutils\dist.py", line 953, in run_commands
+
+        self.run_command(cmd)
+
+      File "C:\Python27\lib\distutils\dist.py", line 972, in run_command
+
+        cmd_obj.run()
+
+      File "build\bdist.win-amd64\egg\setuptools\command\install.py", line 53, in run
+
+      File "C:\Python27\lib\distutils\command\install.py", line 563, in run
+
+        self.run_command('build')
+
+      File "C:\Python27\lib\distutils\cmd.py", line 326, in run_command
+
+        self.distribution.run_command(command)
+
+      File "C:\Python27\lib\distutils\dist.py", line 972, in run_command
+
+        cmd_obj.run()
+
+      File "C:\Python27\lib\distutils\command\build.py", line 127, in run
+
+        self.run_command(cmd_name)
+
+      File "C:\Python27\lib\distutils\cmd.py", line 326, in run_command
+
+        self.distribution.run_command(command)
+
+      File "C:\Python27\lib\distutils\dist.py", line 972, in run_command
+
+        cmd_obj.run()
+
+      File "c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo\setup.py", line 167, in run
+
+        build_ext.run(self)
+
+      File "C:\Python27\lib\distutils\command\build_ext.py", line 339, in run
+
+        self.build_extensions()
+
+      File "C:\Python27\lib\distutils\command\build_ext.py", line 448, in build_extensions
+
+        self.build_extension(ext)
+
+      File "c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo\setup.py", line 191, in build_extension
+
+        build_ext.build_extension(self, ext)
+
+      File "C:\Python27\lib\distutils\command\build_ext.py", line 498, in build_extension
+
+        depends=ext.depends)
+
+      File "C:\Python27\lib\distutils\msvc9compiler.py", line 473, in compile
+
+        self.initialize()
+
+      File "C:\Python27\lib\distutils\msvc9compiler.py", line 383, in initialize
+
+        vc_env = query_vcvarsall(VERSION, plat_spec)
+
+      File "C:\Python27\lib\distutils\msvc9compiler.py", line 299, in query_vcvarsall
+
+        raise ValueError(str(list(result.keys())))
+
+    ValueError: [u'path']
+
+    Complete output from command C:\Python27\python.exe -c "import setuptools;__file__='c:\\users\\ruben\\appdata\\local\\temp\\pip-build-Ruben\\pymongo\\setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record c:\users\ruben\appdata\local\temp\pip-jypk_3-record\install-record.txt --single-version-externally-managed:
+
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build\lib.win-amd64-2.7
+
+creating build\lib.win-amd64-2.7\bson
+
+copying bson\binary.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\code.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\dbref.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\errors.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\json_util.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\max_key.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\min_key.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\objectid.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\py3compat.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\son.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\timestamp.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\tz_util.py -> build\lib.win-amd64-2.7\bson
+
+copying bson\__init__.py -> build\lib.win-amd64-2.7\bson
+
+creating build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\auth.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\collection.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\common.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\connection.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\cursor.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\cursor_manager.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\database.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\errors.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\helpers.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\master_slave_connection.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\message.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\mongo_client.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\mongo_replica_set_client.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\pool.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\read_preferences.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\replica_set_connection.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\son_manipulator.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\ssl_match_hostname.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\thread_util.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\uri_parser.py -> build\lib.win-amd64-2.7\pymongo
+
+copying pymongo\__init__.py -> build\lib.win-amd64-2.7\pymongo
+
+creating build\lib.win-amd64-2.7\gridfs
+
+copying gridfs\errors.py -> build\lib.win-amd64-2.7\gridfs
+
+copying gridfs\grid_file.py -> build\lib.win-amd64-2.7\gridfs
+
+copying gridfs\__init__.py -> build\lib.win-amd64-2.7\gridfs
+
+running build_ext
+
+building 'bson._cbson' extension
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo\setup.py", line 314, in <module>
+
+    **extra_opts
+
+  File "C:\Python27\lib\distutils\core.py", line 152, in setup
+
+    dist.run_commands()
+
+  File "C:\Python27\lib\distutils\dist.py", line 953, in run_commands
+
+    self.run_command(cmd)
+
+  File "C:\Python27\lib\distutils\dist.py", line 972, in run_command
+
+    cmd_obj.run()
+
+  File "build\bdist.win-amd64\egg\setuptools\command\install.py", line 53, in run
+
+  File "C:\Python27\lib\distutils\command\install.py", line 563, in run
+
+    self.run_command('build')
+
+  File "C:\Python27\lib\distutils\cmd.py", line 326, in run_command
+
+    self.distribution.run_command(command)
+
+  File "C:\Python27\lib\distutils\dist.py", line 972, in run_command
+
+    cmd_obj.run()
+
+  File "C:\Python27\lib\distutils\command\build.py", line 127, in run
+
+    self.run_command(cmd_name)
+
+  File "C:\Python27\lib\distutils\cmd.py", line 326, in run_command
+
+    self.distribution.run_command(command)
+
+  File "C:\Python27\lib\distutils\dist.py", line 972, in run_command
+
+    cmd_obj.run()
+
+  File "c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo\setup.py", line 167, in run
+
+    build_ext.run(self)
+
+  File "C:\Python27\lib\distutils\command\build_ext.py", line 339, in run
+
+    self.build_extensions()
+
+  File "C:\Python27\lib\distutils\command\build_ext.py", line 448, in build_extensions
+
+    self.build_extension(ext)
+
+  File "c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo\setup.py", line 191, in build_extension
+
+    build_ext.build_extension(self, ext)
+
+  File "C:\Python27\lib\distutils\command\build_ext.py", line 498, in build_extension
+
+    depends=ext.depends)
+
+  File "C:\Python27\lib\distutils\msvc9compiler.py", line 473, in compile
+
+    self.initialize()
+
+  File "C:\Python27\lib\distutils\msvc9compiler.py", line 383, in initialize
+
+    vc_env = query_vcvarsall(VERSION, plat_spec)
+
+  File "C:\Python27\lib\distutils\msvc9compiler.py", line 299, in query_vcvarsall
+
+    raise ValueError(str(list(result.keys())))
+
+ValueError: [u'path']
+
+----------------------------------------
+
+Cleaning up...
+
+  Removing temporary dir c:\users\ruben\appdata\local\temp\pip-build-Ruben...
+Command C:\Python27\python.exe -c "import setuptools;__file__='c:\\users\\ruben\\appdata\\local\\temp\\pip-build-Ruben\\pymongo\\setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record c:\users\ruben\appdata\local\temp\pip-jypk_3-record\install-record.txt --single-version-externally-managed failed with error code 1 in c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo
+
+Exception information:
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\pip-1.4-py2.7.egg\pip\basecommand.py", line 134, in main
+    status = self.run(options, args)
+  File "C:\Python27\lib\site-packages\pip-1.4-py2.7.egg\pip\commands\install.py", line 241, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "C:\Python27\lib\site-packages\pip-1.4-py2.7.egg\pip\req.py", line 1277, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\pip-1.4-py2.7.egg\pip\req.py", line 622, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "C:\Python27\lib\site-packages\pip-1.4-py2.7.egg\pip\util.py", line 670, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command C:\Python27\python.exe -c "import setuptools;__file__='c:\\users\\ruben\\appdata\\local\\temp\\pip-build-Ruben\\pymongo\\setup.py';exec(compile(open(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record c:\users\ruben\appdata\local\temp\pip-jypk_3-record\install-record.txt --single-version-externally-managed failed with error code 1 in c:\users\ruben\appdata\local\temp\pip-build-Ruben\pymongo
